@@ -14,7 +14,7 @@ RUN npm install --production
 COPY . .
 
 # Expose the port (Back4App sets process.env.PORT automatically)
-EXPOSE 4000
+EXPOSE 5000
 
 # Run the app
 CMD ["node", "index.js"]
