@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 
 app.use(
   cors({
-    origin: ["https://jwt-role-based-auth.vercel.app/"], // Add your frontend URLs
+    origin: ["https://jwt-role-based-auth.vercel.app"], // Add your frontend URLs
     credentials: true,
   })
 );
